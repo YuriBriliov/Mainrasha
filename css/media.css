@@ -1,0 +1,45 @@
+@media screen and (max-width: 720px) {
+  .row {
+    display: block;
+  }
+
+  .nav__block {
+    /* display: none; */
+    visibility: hidden;
+  }
+
+  header {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    position: relative;
+    margin: 40px auto;
+    height: 50px;
+  }
+
+  .header__logo {
+    width: 200px;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    margin-top: 15px;
+    /* top: 0; */
+  }
+
+  .header__lang_change {
+    position: absolute;
+    right: 20px;
+    margin-top: 15px;
+    /* top: 20px; */
+  }
+
+  .main__blogger_card {
+    display: block;
+  }
+
+  .blogger__card_img {
+    width: 100%;
+    width: 600px;
+  }
+}

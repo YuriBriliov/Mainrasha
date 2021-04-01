@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloggers</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <script src="./js/catalog.js"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <a href="#popupVideo" data-rel="popup" data-position-to="window">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+  <!-- <div id="cursor"></div> -->
+  
+  <header>
+    <div class="header__logo">
+      <a href="#">
+        <img src="./img/assets/logo.png" alt="">
+      </a>
+    </div>
+    <div class="nav__block">
+      <nav>
+        <ul class="nav__elem">
+          <li class="nav__elem_item main_screen">
+            <a href="#">
+              Блогеры
+            </a>
+          </li>
+          <li class="nav__elem_item case_screen">
+            <a href="#">
+              Кейсы
+            </a>
+          </li>
+          <li class="nav__elem_item agency_screen">
+            <a href="#">
+              exit agency
+            </a>
+          </li>
+          <li class="nav__elem_item contacts_screen">
+            <a href="#">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="row">
+    
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+      
+          <span></span>
+          <span></span>
+          <span></span>
+      
+          <ul id="menu">
+            <a href="#">
+              <li>Блогеры</li>
+            </a>
+            <a href="#">
+              <li>Кейсы</li>
+            </a>
+            <a href="#">
+              <li>exit agency</li>
+            </a>
+            <a href="#">
+              <li>Контакты</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="header__lang_change">
+      en / ru
+    </div>
+  </header>
+  <main>
+    <section class="filter__section">
+      <!-- puth_user_click -->
+      <div class="main__section_folder">
+        Главная / Блогеры
+      </div>
+      
+      <!-- main_title -->
+      <h1>
+        Блогеры
+      </h1>
+      
+      <!-- selector_block -->
+      <div class="main__section_sort">
+        <div class="main__sort_title">
+          Сортировать по:
+        </div>
+        <div class="main__sort_selector sort__elem">
+          <select name="choice_platform" id="platfirm">
+            <option selected disabled>выберете площадку</option>
+            <option value="Youtube">Youtube</option>
+            <option value="Instagram">Instagram</option>
+            <option value="TikTok">TikTok</option>
+            <option value="Telegram">Telegram</option>
+            <option value="VK">VK</option>
+            <option value="Facebook">Facebook</option>
+          </select>
+        </div>
+        <div class="main__sort_selector sort__elem">
+          <select name="choice_platform" id="platfirm">
+            <option selected disabled>выберете направление</option>
+            <option value="Все">Все</option>
+            <option value="Авто">Авто</option>
+            <option value="Авторское шоу">Авторское шоу</option>
+            <option value="Анбоксинг">Анбоксинг</option>
+            <option value="Еда">Еда</option>
+            <option value="Животные">Животные</option>
+            <option value="Игры">Игры</option>
+            <option value="Иностранные языки">Иностранные языки</option>
+            <option value="Кино">Кино</option>
+            <option value="Красота">Красота</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="blogger__card_section">
+      <!-- blogger_card -->
+
+    </section>
+    <section class="blogger__video_section">
+      <!-- blogger_card -->
+
+
+      <div class="blogger__video_container">
+        <!-- video_content -->
+      </div>
+    </section>
+    <section class="bloggers__another_section">
+
+      <div class="bloggers__another_container">
+        
+      </div>
+    </section>
+    <section class="main__section">
+      <!-- caterories -->
+      <div class="main__catalog_bloggers">
+        <!-- bloggers_cards -->
+      </div>
+
+    </section>
+    <footer>
+      <div class="footer_container">
+        <ul>
+          <li>
+            <img src="./img/assets/logo.png" alt="">
+          </li>
+          <li>
+            <a href="mailto:reklama@wildjam.ru">Cвязаться с нами</a>
+          </li>
+          <li>
+            <a href="mailto:reklama@wildjam.ru">reklama@wildjam.ru</a>
+          </li>
+          <li>
+            ул. Сущевская, д. 27, стр. 2
+          </li>
+          <li>
+            <a href="tel:+7 (499) 393-39-62">+7 (499) 393-39-62</a>
+          </li>
+          <li>
+
+          </li>
+        </ul>
+      </div>
+      <div class="footer_container">
+        <ul>
+          <li>
+            
+          </li>
+          <li>
+            <a href="#"><img src="./img/assets/vk_bot.png" alt=""></a>
+          </li>
+          <li>
+            <a href="#"><img src="./img/assets/insta_bot.png" alt=""></a>
+          </li>
+          <li>
+
+          </li>
+        </ul>
+      </div>
+      
+    </footer>
+    
+  </main>
+  
+  <script src="./js/createCards.js"></script>
+  <script src="./js/showCard.js"></script>
+  <script src="./js/videoOpen.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+</body>
+</html>
