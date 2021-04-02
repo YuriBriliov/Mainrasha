@@ -4,7 +4,6 @@
   }
 
   .nav__block {
-    /* display: none; */
     visibility: hidden;
   }
 
@@ -12,7 +11,6 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    /* margin: 0 auto; */
     position: relative;
     margin: 40px auto;
     height: 50px;
@@ -24,14 +22,12 @@
     position: absolute;
     left: 20px;
     margin-top: 15px;
-    /* top: 0; */
   }
 
   .header__lang_change {
     position: absolute;
     right: 20px;
     margin-top: 15px;
-    /* top: 20px; */
   }
 
   .main__blogger_card {

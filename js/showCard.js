@@ -14,11 +14,9 @@ class Card {
     if (this.card_id === idCard) {
       block.innerHTML = ''
       this.card_id = null;
-      // this.bloggers.style.display = 'block'
       // this.videoContent = []
       this.videoContainer.outerHTML = ''
       this.videoOther.outerHTML = ''
-      // catalog.render()
     }else{
       CATALOG.forEach(({ id }) => {
         if (idCard === id) {
@@ -82,7 +80,7 @@ class Card {
     
     block.innerHTML = ''
     block.innerHTML = card_content
-    // this.bloggers.style.display = 'none'
+    document.querySelector('.main__section').style.display = 'none'
     
     this.handlerVideo()
     this.handlerOtherBloggers()
